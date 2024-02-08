@@ -1,0 +1,49 @@
+html,
+body {
+  height: 99%;
+}
+
+body {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1 {
+  color: red;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-scrollbar {
+  display: none;
+}
+
+.swiper-container {
+  position: relative;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+.swiper-container .swiper-button-prev {
+  left: -40px;
+}
+.swiper-container .swiper-button-next {
+  right: -40px;
+}
+.swiper-container .swiper-pagination {
+  bottom: -30px !important;
+}
+
+.swiper img {
+  cursor: pointer;
+}
